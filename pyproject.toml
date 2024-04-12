@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ai-library-template"
+version = "0.1.0"
+description = ""
+authors = ["game-ai-platform-team"]
+readme = "README.md"
+
+packages = [{ include = "name_of_ai_lib/**/*.py", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
+pylint = "^3.1.0"
+pytest = "^8.1.1"
+invoke = "^2.2.0"
+pytest-xdist = "^3.5.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
