@@ -21,6 +21,7 @@ You need to implement at least the following classes from [duo-game-lib](https:/
 
 1. Create new repository from this template
 1. Implement the AI
+1. Deploy the package to PyPI with deployment workflow
 1. Add AI library to [tira-ai-platform](https://github.com/game-ai-platform-team/tira-ai-platform)
 
    ```sh
@@ -35,13 +36,13 @@ You need to implement at least the following classes from [duo-game-lib](https:/
 The relations between duo-game-lib classes can be found in [architecture document](https://github.com/game-ai-platform-team/tira-ai-platform/blob/main/docs/architecture.md#backend) of the main project.
 [connect-four-lib](https://github.com/game-ai-platform-team/connect-four-lib/blob/main/docs/architecture.md) can be used as an example for an AI library.
 
-## Deployment workflow
+## Deployment
 
 - Update `version` in `pyproject.toml`, use semantic versioning
 - Run "Deploy" workflow manually in GitHub Actions
 
 > [!IMPORTANT]
-> Before releasing the package to PyPI:
+> Before publishing the package to PyPI:
 >
 > - Add repository secrets required in configuration
 > - Rename directory `src/name_of_ai_lib` to a desired name and update `packages` in  `pyproject.toml`
