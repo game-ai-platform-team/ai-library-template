@@ -19,6 +19,7 @@ You need to implement at least the following classes from [duo-game-lib](https:/
 
 ## How to add AI to tira-ai-platform?
 
+1. Create new repository from this template
 1. Implement the AI
 1. Add AI library to [tira-ai-platform](https://github.com/game-ai-platform-team/tira-ai-platform)
 
