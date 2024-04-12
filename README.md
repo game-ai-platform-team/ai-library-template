@@ -10,14 +10,14 @@ Add following items to repository secrets:
 |`CODECOV_TOKEN`|[Codecov](https://docs.codecov.com/docs/adding-the-codecov-token)|
 |`PYPI_TOKEN`|[PyPI](https://pypi.org/help/#apitoken)|
 
-## What I need for an AI?
+## What do I need for an AI?
 
 You need to implement at least the following classes from [duo-game-lib](https://github.com/game-ai-platform-team/duo-game-lib):
 
 - `Player`, represents the AI
 - `Judge`, responsible for game rules
 
-## How to add AI to tira-ai-platform?
+## How to add an AI to tira-ai-platform?
 
 1. Create new repository from this template
 1. Implement the AI
