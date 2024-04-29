@@ -3,6 +3,7 @@ name = "ai-library-template"
 version = "0.1.0"
 description = ""
 authors = ["game-ai-platform-team"]
+license = "MIT License"
 readme = "README.md"
 
 packages = [{ include = "name_of_ai_lib/**/*.py", from = "src" }]
