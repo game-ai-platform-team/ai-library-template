@@ -10,7 +10,7 @@ packages = [{ include = "name_of_ai_lib/**/*.py", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-duo-game-lib = "^0.1.0"
+duo-game-lib = "^0.1.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
